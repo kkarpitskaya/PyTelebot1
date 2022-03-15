@@ -3,10 +3,10 @@
 import telebot  # pyTelegramBotAPI	4.3.1
 from telebot import types
 
-bot = telebot.TeleBot('5137868901:AAFyMbammfh8nbyebBobVa6ZtPWKamfD4Mo')  # Создаем экземпляр бота
+bot = telebot.TeleBot('5137868901:AAFyMbammfh8nbyebBobVa6ZtPWKamfD4Mo5137868901:AAFyMbammfh8nbyebBobVa6ZtPWKamfD4Mo')  # Создаем экземпляр бота
 
 # -----------------------------------------------------------------------
-# Функция, обрабатывающая команду /start
+# Функция, обрабатывающая команду /startss
 @bot.message_handler(commands=["start"])
 def start(message, res=False):
     chat_id = message.chat.id
